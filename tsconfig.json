@@ -21,6 +21,15 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/FeatureExtraction/pipeline.js",
+    "src/app/FeatureExtraction/huggingface.ts",
+    "src/lib/route.js",
+    "src/lib/huggingface.ts"
+  ],
   "exclude": ["node_modules"]
 }
